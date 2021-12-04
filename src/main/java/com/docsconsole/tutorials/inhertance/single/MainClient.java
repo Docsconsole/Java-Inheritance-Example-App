@@ -5,7 +5,7 @@ public class MainClient {
 
         BlueBerry fruit = new BlueBerry();
         fruit.eat();
-        fruit.getFruitCategory();
+        System.out.println("Inherited Field: " + fruit.name);
         fruit.getBlueBerryTaste();
     }
 }

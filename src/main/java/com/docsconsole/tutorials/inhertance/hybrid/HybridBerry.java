@@ -1,6 +1,6 @@
 package com.docsconsole.tutorials.inhertance.hybrid;
 
-public class HybridBerry implements BlackBerry,BlueBerry {
+public class HybridBerry implements BlackBerry, BlueBerry {
 
     @Override
     public void getFruitCategory() {
@@ -16,6 +16,5 @@ public class HybridBerry implements BlackBerry,BlueBerry {
     public void getBlackBerryTaste() {
         System.out.println("BlackBerry's taste is sweet.");
     }
-
 
 }
